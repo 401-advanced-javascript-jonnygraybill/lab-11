@@ -35,3 +35,6 @@
   
 #### Tests
 * npm test
+
+### UML
+![UML](./assets/lab-11-uml.jpg)
