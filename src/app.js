@@ -13,12 +13,17 @@ const authRouter = require( './auth/router.js' );
 // Prepare the express app
 const app = express();
 
+const bcrypt = require( './auth/users-model.js');
+
 // App Level MW
 app.use(cors());
 app.use(morgan('dev'));
 
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
+
+//Routes
+app.use(authRouter);
 
 // Catchalls
 app.use(notFound);
