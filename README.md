@@ -8,7 +8,7 @@
 * [travis]([![Build Status](https://www.travis-ci.com/401-advanced-javascript-jonnygraybill/lab-11.svg?branch=auth)](https://www.travis-ci.com/401-advanced-javascript-jonnygraybill/lab-11))
 
 ### Heroku
-* (https://jgray-401-lab11.herokuapp.com/)
+* [App](https://jgray-401-lab11.herokuapp.com/)
 
 
 #### Documentation
